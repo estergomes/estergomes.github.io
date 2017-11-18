@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ester Gomes Designer | Portfolio Web Design & Design Gráfico</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--Fontes-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700" rel="stylesheet">
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
+    <style>
+      /* Ensure elements load hidden before ScrollReveal runs */
+      .sr .foo { visibility: hidden; }
+    </style>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">
+      upgrade your browser</a> to improve your experience.
+    </p>
+    <![endif]-->
+    <div class="wrapper">
+      <!--header-->
+      <header id="header">
+        <div class="container">
+          <!--LOGO-->
+          <a href="index.html" class="logo" title="Descrição Logo"></a>
+          <!-- NAV -->	
+          <div class="burguer_container icon-close icon-close3" id="toggle">
+            <div class="icon"></div>
+            <div class="icon">
+              <div class="icon-mid"></div>
+            </div>
+            <div class="icon"></div>
+          </div>
+          <div class="mask" id="mask">
+            <nav class="mask-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <!--<li><a href="download.html">Downloads</a></li>-->
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="divider1"></div>
+      </header>
+      <!--Portfolio -->
+      <section id="work_single_page">
+        <div class="container work_content">
+          <h1 class="element">Site Apiluma Doces finos </h1>
+          <p>Para as redes sociais, também foi elaborado o sistema de apresentação da marca, mantendo as cores e padrões da identidade visual.</p>
+          <p class="tag-work">  Photoshop / web design / ui design </p>
+          <img class="project foo" src="assets/img/portfolio/portfolio-design-6-full-1.jpg">
+          <img class="project foo" src="assets/img/portfolio/portfolio-design-6-full-2.jpg">
+        </div>
+      </section>
+      <!-- CONTATO -->
+      <section id="contato">
+        <div class="container foo">
+           <h1>Entre em contato </h1>
+
+            <p>Para mais informações e/ou orçamentos, entre em <a href="contato.html">contato</a> pelo formulário ou email.</p>
+            <adress><a href="#" >estergomesdesign@gmail.com</a></adress>
+            
+          <div class="social-icons-contato ">
+            <p>ou me siga nas redes sociais</p>
+            <a href="https://br.pinterest.com/ester_design/" target="_blank"> <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            <a href="https://www.behance.net/estergomes" target="_blank"> <i class="fa fa-behance"></i></a>
+            <a href="https://www.tumblr.com/blog/pixel-desk" target="_blank"> <i class="fa fa-tumblr"></i></a>
+            <a href="https://github.com/estergomes" target="_blank"> <i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/pixel_desk/" target="_blank"> <i class="fa fa-instagram"></i></a>  
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <div class="divider5"> </div>
+      <footer id="footer">
+        <div class="container">
+          <div class="siteinfo foo">
+            <a href="index.html"><img src="assets/img/logo_ester_gomes_bottom.png" alt="descrição"></a>
+            <p>&copy;2017.Todos os direitos reservados </p>
+          </div>
+          <div class="social-icons foo">
+            <a href="https://br.pinterest.com/ester_design/" target="_blank"> <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            <a href="https://www.behance.net/estergomes" target="_blank"> <i class="fa fa-behance"></i></a>
+            <a href="https://www.tumblr.com/blog/pixel-desk" target="_blank"> <i class="fa fa-tumblr"></i></a>
+            <a href="https://github.com/estergomes" target="_blank"> <i class="fa fa-github"></i></a>
+            <a href="https://www.instagram.com/pixel_desk/" target="_blank"> <i class="fa fa-instagram"></i></a>  
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--fim wrapper-->
+    <!--scrollreveal-->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5951b902c4807bb4"></script> 
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script>// JavaScript
+      window.sr = ScrollReveal();
+      sr.reveal('.foo');
+      sr.reveal('.bar');
+    </script>
+  </body>
+</html>
